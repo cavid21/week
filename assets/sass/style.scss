@@ -1,0 +1,191 @@
+@import 'bootstrap';
+@import 'variable_header';
+@import 'variable_banner';
+
+body
+{
+	min-width: 390px;
+	font-family: $header-top-font-family;
+}
+
+#header
+{
+	.header-top
+	{
+		background: $header-top-bg-color;
+		color: $header-top-text-color;
+		h6
+		{
+			padding: $header-top__h6-padding;
+			font-size: $header-top__h6-font-size;
+			letter-spacing: $header-top__h6-letter-spacing;
+		}
+		.left
+		{
+			padding-right: $header-top__left-padding-right;
+			border-right: $header-top__left-border-right; 
+			i
+			{
+				padding: $header-top__left__i-padding;
+				font-size: $header-top__left__i-font-size;
+				letter-spacing: $header-top__left__i-letter-spacing;
+			}
+			h6
+			{
+				font-size: $header-top__left__h6-font-size;
+				letter-spacing: $header-top__left__h6-letter-spacing;
+				padding: $header-top__left__h6-padding;
+			} 
+		}
+		.right
+		{
+			padding-left: $header-top__right-padding-left;
+			margin-right: $header-top__right-margin-right;
+			i
+			{
+				padding: $header-top__right__i-padding;
+				font-size: $header-top__right__i-font-size;
+			}
+			h6
+			{
+				padding: $header-top__right__h6-padding;
+			} 
+		}
+	}
+	.header-bottom
+	{
+		height: $header-bottom-height;
+		.navbar
+		{
+			margin-bottom: $header-bottom__navbar-margin-bottom;
+		}
+		img
+		{
+			padding: $header-bottom__img-padding;
+		}
+		ul
+		{
+			margin-right: $header-bottom__ul-margin-right;
+			li
+			{
+				margin: $header-bottom__ul__li-margin;
+				a
+				{
+					letter-spacing: $header-bottom__ul__li__a-letter-spacing;
+					font-size: $header-bottom__ul__li__a-font-size;
+					color: $header-bottom__ul__li__a-color;
+					&:hover
+					{
+						background: $header-bottom__ul__li__a__hover-background;
+					}
+				}
+				i
+				{
+					font-size: $header-bottom__ul__li__i-font-size;
+				}
+				&:last-child
+				{
+					padding-left: $header-bottom__ul__li__i__last-chid-padding-left;
+					margin-right: $header-bottom__ul__li__i__last-child-margin-right; 
+				}
+			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px)
+	{
+		a
+		{
+			padding: $header-bottom__media__a-padding;
+		}
+	}
+}
+
+#banner
+{
+	height: $banner-height;
+	background: $banner-background;
+	color: $banner-color;
+	.col-md-12
+	{
+		letter-spacing: $banner__col-md-12-letter-spacing;
+		h6
+		{
+			font-weight: $banner__col-md-12__h6-font-weight;
+			font-size: $banner__col-md-12__h6-font-size;
+			&:first-child
+			{
+				margin: $banner__col-md-12__h6__first-child-margin;
+			}
+			&:last-child
+			{
+				margin-bottom: $banner__col-md-12__h6__last-child-margin-bottom;
+			}
+		}
+		p
+		{
+			text-transform: $banner__col-md-12__p-text-transform;
+			font-weight: $banner__col-md-12__p-font-weight;
+			&:first-child
+			{
+				font-size: $banner__col-md-12__p-first-child-font-size;
+				margin-bottom: $banner__col-md-12__p-first-child-margin-bottom;
+			}
+			&:last-child
+			{
+				font-size: $banner__col-md-12__p-last-child-font-size;
+			}
+		}
+	}
+}
+
+#makeYSU
+{
+	height: 656px;
+	letter-spacing: -0.5px;
+	.left
+	{
+		margin-left: 5px;
+		h1
+		{
+			margin: 95px 0 3px 0;
+			font-size: 30px;
+			font-weight: bold;
+			color: #23282F;
+		}
+		h3
+		{
+			margin: 0 0 30px 0;
+			font-size: 17px;
+			color: #23282F;
+		}
+		p
+		{
+			line-height: 1.45;
+			font-size: 17px;
+			color: #6C6F74;
+			letter-spacing: 0.5px;
+		}
+		div
+		{
+			padding-top: 112px;
+			margin: 32px 0 0 2px;
+			max-width: 585px;
+			height: 301px;
+			background: #8D8D8D;
+			color: #fff;
+			font-size: 28px;
+			font-weight: bold;
+		}
+	}
+	.right
+	{
+		img
+		{
+			float: left;
+		}
+		div
+		{
+			float: left;
+		}
+	}
+}

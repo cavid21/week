@@ -1,0 +1,39 @@
+$header-top-bg-color: #e5eef0; 
+$header-top-text-color: #98A6AC;
+$header-top-font-family: 'karla';
+
+	$header-top__h6-font-size: 11.3px;
+	$header-top__h6-padding: 8px 8px 10px 8px ;
+	$header-top__h6-letter-spacing: 1.4px;
+
+	$header-top__left-border-right: 1px solid #D8E3E6;
+	$header-top__left-padding-right: 23px;
+		$header-top__left__i-font-size: 25px;
+		$header-top__left__i-padding: 13px 0 0 0;
+		$header-top__left__i-letter-spacing: 1.7px;
+		$header-top__left__h6-font-size: 13px;
+		$header-top__left__h6-letter-spacing: 1.75px;
+		$header-top__left__h6-padding:  9px 8px 7px 8px;
+
+	$header-top__right-padding-left: 27px;
+	$header-top__right-margin-right: -12px;
+		$header-top__right__i-font-size: 20px;
+		$header-top__right__i-padding: 14.5px 0 0 0 ;
+		$header-top__right__h6-padding: 10px 8px 8px 8px;
+
+
+$header-bottom-height: auto;
+	$header-bottom__navbar-margin-bottom: 12px;
+	$header-bottom__img-padding: 5px 0 0 7.5px;
+
+	$header-bottom__ul-margin-right: 15px;
+		$header-bottom__ul__li-margin: 12px 3px 0 3px;
+			$header-bottom__ul__li__a-letter-spacing: 1.4px;
+			$header-bottom__ul__li__a-font-size: 13px;
+			$header-bottom__ul__li__a-color: #98A6AC;
+				$header-bottom__ul__li__a__hover-background: #fff;
+			$header-bottom__ul__li__i-font-size: 10px;
+				$header-bottom__ul__li__i__last-chid-padding-left: 10px;
+				$header-bottom__ul__li__i__last-child-margin-right: -10px;
+
+	$header-bottom__media__a-padding: 15px 3px;
